@@ -1,0 +1,25 @@
+{% extends "bandapp/base.html" %}
+
+{% block title %}Albums - My Band Website{% endblock %}
+
+{% block styles %}
+<style>
+    /* Define a CSS class to set the list-style image */
+    .custom-list {
+        list-style-image: url('/static/bandapp/bokke.jpg');
+        /* Replace '/path/to/your/image.png' with the actual path to your image */
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+    <h1>Our Albums</h1>
+    <ul class="custom-list">
+        <li>Go bokke</li>
+        <li>Die Bok Masjien</li>
+        <li>Hie Kommie Bokkeee</li>
+    </ul>
+    <b>More albums coming very soon!</b>
+    
+{% endblock %}
+
